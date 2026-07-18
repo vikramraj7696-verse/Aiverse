@@ -1,0 +1,1 @@
+theme.onclick=()=>document.body.classList.toggle('light');search.oninput=e=>document.querySelectorAll('.card').forEach(c=>c.style.display=c.textContent.toLowerCase().includes(e.target.value.toLowerCase())?'block':'none');
